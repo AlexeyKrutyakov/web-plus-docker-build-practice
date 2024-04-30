@@ -1,4 +1,4 @@
 FROM node:16-alpine
-WORKDIR /app
-COPY hello.sh app/
+WORKDIR /home/ilovedocker/app
+COPY hello.sh /home/ilovedocker/app/
 ENTRYPOINT [ "sh hello.sh" ]
